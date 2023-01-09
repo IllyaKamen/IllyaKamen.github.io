@@ -1,0 +1,135 @@
+@media screen and (max-width: 1050px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        min-width: 1000px;
+    }
+    
+    .x {
+        float: left;
+        height: 160px;
+        width: 30%;
+        text-align: center;
+    }
+    .first {
+        position: relative;
+        height: inherit;
+        float: right;
+        min-width: 490px;
+    }
+    
+    .title{
+        width: fit-content;
+        margin: 5%;
+    }
+    
+    #body {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .second {
+        min-width: 120px;
+        background-color: #FDE9D9;
+        height: 100px;
+        width: 100%;
+    }
+
+    .third {
+        min-width: 930px;
+        position: relative;
+        float: right;
+        background-color: #EAF1DD;
+        height: 100px;
+        text-align: center;
+    }
+
+    .fourth {
+        min-width: 50px;
+        position: relative;
+        float: left;
+        height: 700px;
+        float: top;
+        background-color: #ffffff;
+    }
+
+    .fifth {
+        float: right;
+        height: 800px;
+        background-color: #FDE9D9;
+        min-width: 300px;
+    }
+
+    .sixth{
+        position: relative;
+        float: left;
+        height: 100px;
+        background-color: #EAF1DD;
+    }
+
+
+    .seventh {
+        position: relative;
+        height: inherit;
+        float: left;
+        min-width: 490px;
+    }
+    .y {
+        position: relative;
+        float: right;
+        width: 30%;
+        height: 160px;
+    }
+    
+    .page-name{
+        margin-left: 10%;
+        margin-top: 5%;
+        width: fit-content;
+        font-size: 18px;
+        background-color: #FFFFFF;  
+    }
+    
+    .line-break {
+        display: block;
+        width: 100%;
+    }
+    
+    #footer {
+        display: flex;
+        flex-direction: column;
+        height: 220px;
+        min-width: 1000px;
+    }
+    
+    ul {
+        padding-left: 18px;
+    }
+    
+    p{
+        font-size: 24px;
+    }
+    h1,h2,h3{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .second{
+        height: 200px;
+    }
+    
+    .fourth{
+        height: 1000px;
+    }
+    p,a,h1,h2,h3{
+        font-size: 30px;
+    }
+    
+    #sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .fifth{
+        height: 300px;
+    }
+}

@@ -81,13 +81,13 @@ function getCookie(name) {
 
 function selectEvent() {
     const colorElement = document.getElementById("colorInput");
-    document.getElementById("sidebar").style = "background-color: " + colorElement.value + ";";
-    document.getElementById("brand-info").style = "background-color: " + colorElement.value + ";";
-    document.getElementById("title").style = "background-color: " + colorElement.value + ";";
-    document.getElementById("content").style = "background-color: " + colorElement.value + ";";
-    document.getElementById("links").style = "background-color: " + colorElement.value + ";";
-    document.getElementById("adv").style = "background-color: " + colorElement.value + ";";
-    document.getElementById("copyright").style = "background-color: " + colorElement.value + ";";
+    document.getElementById("sidebar").style = "border-color: " + colorElement.value + ";";
+    document.getElementById("brand-info").style = "border-color: " + colorElement.value + ";";
+    document.getElementById("title").style = "border-color: " + colorElement.value + ";";
+    document.getElementById("content").style = "border-color: " + colorElement.value + ";";
+    document.getElementById("links").style = "border-color: " + colorElement.value + ";";
+    document.getElementById("adv").style = "border-color: " + colorElement.value + ";";
+    document.getElementById("copyright").style = "border-color: " + colorElement.value + ";";
     localStorage.setItem('allBoxColor', colorElement.value);
 
 }
@@ -95,13 +95,13 @@ function selectEvent() {
 window.onload = (event) => {
     let allBoxColor = localStorage.getItem("allBoxColor");
     if (allBoxColor){
-        document.getElementById("sidebar").style = "background-color: " + allBoxColor + ";";
-        document.getElementById("brand-info").style = "background-color: " + allBoxColor + ";";
-        document.getElementById("title").style = "background-color: " + allBoxColor + ";";
-        document.getElementById("content").style = "background-color: " + allBoxColor + ";";
-        document.getElementById("links").style = "background-color: " + allBoxColor + ";";
-        document.getElementById("adv").style = "background-color: " + allBoxColor + ";";
-        document.getElementById("copyright").style = "background-color: " +allBoxColor + ";";
+        document.getElementById("sidebar").style = "border-color: " + allBoxColor + ";";
+        document.getElementById("brand-info").style = "border-color: " + allBoxColor + ";";
+        document.getElementById("title").style = "border-color: " + allBoxColor + ";";
+        document.getElementById("content").style = "border-color: " + allBoxColor + ";";
+        document.getElementById("links").style = "border-color: " + allBoxColor + ";";
+        document.getElementById("adv").style = "border-color: " + allBoxColor + ";";
+        document.getElementById("copyright").style = "border-color: " +allBoxColor + ";";
     }
 
     let temp = getCookie("reverseNumber");

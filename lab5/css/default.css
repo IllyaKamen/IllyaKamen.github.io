@@ -6,61 +6,64 @@
 #header {
     display: flex;
     flex-direction: row;
+    height: 30%;
 }
 
 #body {
     display: flex;
     flex-direction: row;
+    height: 60%;
 }
 
 #footer {
     display: flex;
     flex-direction: row;
+    height: 10%;
 }
 
 #body-container{
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 #sub-container{
     display: flex;
     flex-direction: row;
+    height: 85%;
 }
 
 #sub-sub-container{
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 .first {
-    margin-right: 3%;
-    width: 45%;
     text-align: center;
-    padding: 8px;
-    min-width: 490px;
+    width: 70%;
+    border-style: solid;
+    border-radius: 1px;
 }
 
 .x {
     float: left;
-    height: 160px;
     width: 30%;
     text-align: center;
 }
 .page-name{
     margin-left: 10%;
     margin-top: 10%;
+    padding: 4%;
     width: fit-content;
     font-size: 18px;
     background-color: #FFFFFF;
-    
+
 }
 
 .first {
     position: relative;
-    height: inherit;
     float: right;
-    min-width: 490px;
 }
 
 .title{
@@ -69,46 +72,53 @@
 }
 
 .second {
-    min-width: 150px;
     float: left;
     background-color: #FDE9D9;
-    height: 840px;
+    width: 10%;
+    overflow: auto;
+    border-style: solid;
+    border-radius: 1px;
 }
 
 .third {
-    min-width: 930px;
     position: relative;
     float: right;
     background-color: #EAF1DD;
-    height: 70px;
+    height: 15%;
     text-align: center;
+    overflow: auto;
+    border-style: solid;
+    border-radius: 1px;
 }
 
 .fourth {
-    min-width: 50px;
     position: relative;
     float: left;
-    height: 700px;
-    float: top;
+    height: 100%;
     background-color: #ffffff;
+    overflow: auto;
+    min-height: 800px;
+    border-style: solid;
+    border-radius: 1px;
 }
 
 .fifth {
-    min-width: 150px;
     float: right;
-    height: 770px;
     background-color: #FDE9D9;
-}
-
-#fourth-text{
-    font-size: 24px;
+    overflow: auto;
+    border-style: solid;
+    border-radius: 1px;
+    width: 20%;
 }
 
 .sixth{
     position: relative;
     float: left;
-    height: 70px;
+    height: 20%;
     background-color: #EAF1DD;
+    overflow: auto;
+    border-style: solid;
+    border-radius: 1px;
 }
 
 
@@ -116,7 +126,9 @@
     position: relative;
     height: inherit;
     float: left;
-    min-width: 490px;
+    width: 70%;
+    border-style: solid;
+    border-radius: 1px;
 }
 
 .y {

@@ -1,14 +1,42 @@
 @media screen and (max-width: 1050px) {
+
     #header {
         display: flex;
         flex-direction: column;
-        height: 250px;
-        min-width: 1000px;
+        height: 20%;
     }
-    
+
+    #body {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+    }
+
+    #body-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #sub-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #sub-sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+
     .x {
         float: left;
-        height: 160px;
+        height: 50%;
         width: 30%;
         text-align: center;
     }
@@ -16,55 +44,52 @@
         position: relative;
         height: inherit;
         float: right;
-        min-width: 490px;
     }
-    
+
     .title{
         width: fit-content;
         margin: 5%;
     }
-    
+
     #body {
         display: flex;
         flex-flow: row wrap;
+        width: 100%;
+
     }
 
     .second {
-        min-width: 120px;
         background-color: #FDE9D9;
-        height: 100px;
+        height: 15%;
         width: 100%;
     }
 
     .third {
-        min-width: 930px;
         position: relative;
         float: right;
         background-color: #EAF1DD;
-        height: 100px;
+        height: 15%;
         text-align: center;
     }
 
     .fourth {
-        min-width: 50px;
         position: relative;
         float: left;
-        height: 700px;
-        float: top;
+        height: 85%;
+        min-height: 0;
         background-color: #ffffff;
     }
 
     .fifth {
         float: right;
-        height: 800px;
         background-color: #FDE9D9;
-        min-width: 300px;
+        width: 30%;
     }
 
     .sixth{
         position: relative;
         float: left;
-        height: 100px;
+        height: 15%;
         background-color: #EAF1DD;
     }
 
@@ -81,31 +106,31 @@
         width: 30%;
         height: 160px;
     }
-    
+
     .page-name{
         margin-left: 10%;
         margin-top: 5%;
         width: fit-content;
         font-size: 18px;
-        background-color: #FFFFFF;  
+        background-color: #FFFFFF;
     }
-    
+
     .line-break {
         display: block;
         width: 100%;
     }
-    
+
     #footer {
         display: flex;
         flex-direction: column;
         height: 220px;
         min-width: 1000px;
     }
-    
+
     ul {
         padding-left: 18px;
     }
-    
+
     p{
         font-size: 24px;
     }
@@ -113,23 +138,73 @@
         font-size: 24px;
     }
 }
-@media screen and (max-width: 510px) {
-    .second{
-        height: 200px;
+
+@media screen and (max-width: 700px){
+    p,a,h1,h2,h3{
+        font-size: 30px;
     }
-    
+}
+
+@media screen and (max-width: 510px) {
+    #header{
+        height: 10%;
+    }
+    #body{
+        height: 80%;
+    }
+    #footer{
+        height: 10%;
+    }
+    #body-container{
+        height: 80%;
+    }
+    .second{
+        height: 20%;
+    }
+
     .fourth{
-        height: 1000px;
+        height: 80%;
+    }
+    .sixth{
+        height: 20%;
     }
     p,a,h1,h2,h3{
         font-size: 30px;
     }
-    
+
     #sub-container{
         display: flex;
         flex-direction: column;
     }
+
+    #sub-sub-container{
+        width: 100%;
+        height: 80%;
+    }
     .fifth{
-        height: 300px;
+        width: 100%;
+        height: 20%;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        width: 100%;
+    }
+
+    #header{
+        height: 250px;
+    }
+
+    #footer{
+        height: 250px;
+    }
+
+    .page-name{
+        font-size: 30px;
+    }
+
+
+    p,a,h1,h2,h3{
+        font-size: 50px;
     }
 }

@@ -11,6 +11,7 @@
 #body {
     display: flex;
     flex-direction: row;
+    min-height: 800px;
 }
 
 #footer {
@@ -21,24 +22,25 @@
 #body-container{
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 #sub-container{
     display: flex;
     flex-direction: row;
+    height: 85%;
+    width: 100%;
 }
 
 #sub-sub-container{
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 .first {
-    margin-right: 3%;
-    width: 45%;
     text-align: center;
-    padding: 8px;
-    min-width: 490px;
+    width: 70%;
 }
 
 .x {
@@ -54,14 +56,13 @@
     width: fit-content;
     font-size: 18px;
     background-color: #FFFFFF;
-    
+
 }
 
 .first {
     position: relative;
     height: inherit;
     float: right;
-    min-width: 490px;
 }
 
 .title{
@@ -70,41 +71,42 @@
 }
 
 .second {
-    min-width: 120px;
     float: left;
     background-color: #FDE9D9;
-    height: 840px;
+    width: 10%;
+    overflow: auto;
 }
 
 .third {
-    min-width: 930px;
     position: relative;
     float: right;
     background-color: #EAF1DD;
-    height: 70px;
+    height: 15%;
     text-align: center;
+    overflow: auto;
 }
 
 .fourth {
-    min-width: 50px;
     position: relative;
     float: left;
-    height: 700px;
-    float: top;
+    height: 100%;
     background-color: #ffffff;
+    overflow: auto;
 }
 
 .fifth {
     float: right;
-    height: 770px;
     background-color: #FDE9D9;
+    width: 20%;
+    overflow: auto;
 }
 
 .sixth{
     position: relative;
     float: left;
-    height: 70px;
+    height: 20%;
     background-color: #EAF1DD;
+    overflow: auto;
 }
 
 
@@ -112,7 +114,7 @@
     position: relative;
     height: inherit;
     float: left;
-    min-width: 490px;
+    width: 70%;
 }
 
 .y {

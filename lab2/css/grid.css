@@ -5,7 +5,7 @@
 
 #body {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 15% auto 15%;
 }
 
 #footer {
@@ -17,6 +17,7 @@
 #main-container{
     display: grid;
     grid-template-columns: auto;
+    grid-template-rows: 10% auto 10%;
 }
 
 /*
@@ -52,7 +53,6 @@
     position: relative;
     height: inherit;
     float: right;
-    min-width: 490px;
 }
 
 .title{
@@ -60,52 +60,36 @@
     margin: 5%;
 }
 
-
-
 .second {
-    min-width: 120px;
     float: left;
     background-color: #FDE9D9;
-    height: 800px;
 }
 
 .third {
-    min-width: 930px;
-    position: relative;
-    float: right;
     background-color: #EAF1DD;
-    height: 50px;
     text-align: center;
+    overflow: auto;
 }
 
 .fourth {
-    min-width: 50px;
-    position: relative;
-    float: left;
-    height: 700px;
-    float: top;
     background-color: #ffffff;
+    overflow: auto;
 }
 
 .fifth {
     float: right;
-    height: 800px;
     background-color: #FDE9D9;
 }
 
 .sixth{
-    position: relative;
-    float: left;
-    height: 50px;
-    background-color: #EAF1DD
+    background-color: #EAF1DD;
+    overflow: auto;
 }
 
 
 .seventh {
-    position: relative;
     height: inherit;
     float: left;
-    min-width: 490px;
 }
 
 .y {

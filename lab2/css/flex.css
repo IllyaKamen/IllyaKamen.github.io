@@ -26,6 +26,7 @@
 #sub-container{
     display: flex;
     flex-direction: row;
+    height: 90%;
 }
 
 #sub-sub-container{
@@ -34,11 +35,8 @@
 }
 
 .first {
-    margin-right: 3%;
-    width: 45%;
+    width: 70%;
     text-align: center;
-    padding: 8px;
-    min-width: 490px;
 }
 
 .x {
@@ -70,49 +68,51 @@
 }
 
 .second {
-    min-width: 120px;
+    min-width: 15%;
     float: left;
     background-color: #FDE9D9;
-    height: 800px;
 }
 
 .third {
-    min-width: 930px;
     position: relative;
     float: right;
     background-color: #EAF1DD;
-    height: 50px;
     text-align: center;
+    height: 10%;
+    overflow: auto;
 }
 
 .fourth {
-    min-width: 50px;
     position: relative;
     float: left;
-    height: 700px;
     float: top;
     background-color: #ffffff;
+    height: 90%;
+    min-height: fit-content;
+    overflow: auto;
 }
 
 .fifth {
     float: right;
-    height: 750px;
     background-color: #FDE9D9;
+    overflow: auto;
+    min-width: 15%;
 }
 
 .sixth{
     position: relative;
     float: left;
-    height: 50px;
     background-color: #EAF1DD;
+    height: 10%;
+    overflow: auto;
 }
 
 
 .seventh {
     position: relative;
-    height: inherit;
     float: left;
     min-width: 490px;
+    width: 70%;
 }
 
 .y {

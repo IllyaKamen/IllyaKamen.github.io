@@ -19,7 +19,6 @@
     width: 70%;
     height: inherit;
     float: right;
-    min-width: 490px;
 }
 
 .title{
@@ -28,9 +27,8 @@
 }
 
 
-
 .second {
-    min-width: 70px;
+
     float: left;
     width: 15%;
     background-color: #FDE9D9;
@@ -38,7 +36,6 @@
 }
 
 .third {
-    min-width: 930px;
     position: relative;
     float: right;
     width: 85%;
@@ -78,7 +75,6 @@
     width: 70%;
     height: inherit;
     float: left;
-    min-width: 490px;
 }
 
 .y {
